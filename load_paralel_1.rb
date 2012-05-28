@@ -8,7 +8,7 @@ require './rs.rb'
 require './percentile.rb'
 
 db = connect()
-db.query("use rs_skillup2")
+db.query("db_name")
 
 source_users = File.new(ARGV[0], "r")
 source_ads   = File.new(ARGV[1], "r")
