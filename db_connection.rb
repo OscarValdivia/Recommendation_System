@@ -6,8 +6,8 @@ require "mysql"
 def connect()
     location          = "localhost"
     user              = "root"
-    password          = "quake321"
-    recommendation_db = "rs_skillup2"
+    password          = "password"
+    recommendation_db = "db_name"
     
     db = Mysql.new(location, user, password)
     db.autocommit(false);
